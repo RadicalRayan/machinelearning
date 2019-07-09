@@ -139,7 +139,7 @@ namespace Microsoft.ML.Trainers.LightGbm
             {
                 NameMapping.Add(nameof(EvaluateMetricType), "metric");
                 NameMapping.Add(nameof(EvaluateMetricType.None), "None");
-                NameMapping.Add(nameof(EvaluateMetricType.Default), "");
+                NameMapping.Add(nameof(EvaluateMetricType.Default), "metric=");
                 NameMapping.Add(nameof(EvaluateMetricType.MeanAbsoluteError), "mae");
                 NameMapping.Add(nameof(EvaluateMetricType.RootMeanSquaredError), "rmse");
                 NameMapping.Add(nameof(EvaluateMetricType.MeanSquaredError), "mse");

@@ -150,7 +150,7 @@ namespace Microsoft.ML.Trainers.LightGbm
                 NameMapping.Add(nameof(CustomGains), "label_gain");
                 NameMapping.Add(nameof(EvaluateMetricType), "metric");
                 NameMapping.Add(nameof(EvaluateMetricType.None), "None");
-                NameMapping.Add(nameof(EvaluateMetricType.Default), "");
+                NameMapping.Add(nameof(EvaluateMetricType.Default), "metric=");
                 NameMapping.Add(nameof(EvaluateMetricType.MeanAveragedPrecision), "map");
                 NameMapping.Add(nameof(EvaluateMetricType.NormalizedDiscountedCumulativeGain), "ndcg");
             }
